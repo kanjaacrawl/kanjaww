@@ -1,0 +1,254 @@
+*{
+    margin:0;
+}
+#header{
+    width:100%;
+    height:150px;
+    background-color:darkblue;
+    position:fixed;
+    z-index:2;
+}
+#nama{
+    color:white;
+    padding:20px;
+}
+#menubar{
+    width:100%;
+    height:60px;
+    background-color:black;
+}
+.menu{
+    color:white;
+    width:130px;
+    list-style:none;
+    text-align:center;
+}
+#dafmen{
+    display:inline-flex;
+    margin-top:20px;
+}
+.menu:hover{
+    background-color:yellow;
+    color:black;
+    border-radius:5px;
+    cursor:pointer;
+}
+#menu-artikel{
+    display:none;
+}
+.menu:hover #menu-artikel{
+    display:block;
+    margin-left:-40px;
+}
+.artikel{
+    list-style:none;
+    padding-top:10px;
+    padding:10;
+}
+.artikel:hover{
+    background-color:darkgoldenrod;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+}
+#nama{
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#menu-sosmed{
+    display:none;
+}
+.menu:hover #menu-sosmed{
+    display:block;
+    margin-left:-40px;
+}
+.sosmed{
+    list-style:none;
+    padding-top:10px;
+    padding:10px;
+}
+.sosmed:hover{
+    background-color:darkgoldenrod;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+}
+#content{
+    width:100%;
+    height:700px;
+    background-color:darkgreen;
+    display:flex;
+}
+#side-menu{
+    width:20%;
+    height:2000px;
+    background-color:darksalmon;
+}
+#isi{
+    width:80%;
+    height:2000px;
+    background-color:darkkhaki;
+}
+#atas{
+    width:100%;
+    height:200px;
+    background-color:darkgoldenrod;
+    display:flex;
+    justify-content:space-around;
+}
+#bawah{
+    width:100%;
+    height:500px;
+    background-color:mediumseagreen;
+    display:flex;
+    justify-content:space-around;
+}
+.aha{
+    width:10%;
+    height:150px;
+    background-color:darkcyan;
+    margin-top:22px;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.ehe{
+    width:40%;
+    height:380px;
+    background-color:indianred;
+    margin-top:40px;
+}
+.pct{
+    width:100%;
+    height:150px;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.vid{
+    width:100%;
+    height:380px;
+}
+#aw{
+    width:100%;
+    height:350px;
+    background-color:red;
+    padding-top:20px;
+}
+#ew{
+    width:100%;
+    height:500px;
+    background-color:darkred;
+}
+#pemilik{
+    width:40%;
+    height:250px;
+    background-color:chocolate;
+    margin:auto;
+}
+#aku{
+    width:100%;
+    height:250px;
+}
+#name{
+    width:40%;
+    height:45px;
+    background-color:white;
+    margin:auto;
+}
+#ahayy{
+    width:90%;
+    height:400px;
+    background-color:white;
+    margin:auto;
+}
+#cihuyy{
+    width:100%;
+    height:50px;
+    background-color:black;
+    border-radius:10px;
+}
+.anak-cihuyy{
+    width:100%;
+    height:50px;
+    background-color:white;
+}
+h2{
+    text-align:center;
+    color:white;
+    padding-top:3%;
+}
+.anak-cihuyy:hover{
+    background-color:gainsboro;
+    border-radius:10px;
+}
+h5{
+    text-align:center;
+    color:black;
+    padding-top:5%;
+}
+h5:hover{
+    color:darkslategrey;
+    cursor:pointer;
+}
+#artikel{
+    width:80%;
+    height:800px;
+    background-color:darkslategray;
+    margin:auto;
+}
+#jdl-artikel{
+    width:100%;
+    height:100px;
+    background-color:red;
+}
+#windah{
+    width:40%;
+    height:350px;
+    background-color:darkkhaki;
+    margin:auto;
+}
+#fotoo{
+    width:100%;
+    height:350px;
+}
+#isi-artikel{
+    width:90%;
+    height:350px;
+    background-color:white;
+    margin:auto;
+}
+#judulnyah{
+    text-align:center;
+    padding-top:35px;
+}
+#ai{
+    width:97%;
+    height:300px;
+    background-color:white;
+    margin:auto;
+}
+#miss{
+    width:100%;
+    height:35px;
+    background-color:darkred;
+}
+#you{
+    width:100%;
+    height:60px;
+    background-color:darkgray;
+}
+#so{
+    width:100%;
+    height:205px;
+    display:flex;
+    justify-content:space-around;
+}
+.bad{
+    width:20%;
+    height:205px;
+    background-color:aqua;
+}
